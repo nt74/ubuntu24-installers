@@ -116,8 +116,8 @@ sleep 3
 sudo install -vDm755 hdspeconf -t /usr/share/${PKGNAME}
 sudo install -vDm644 dialog-warning.png -t /usr/share/${PKGNAME}
 
-# Create symlink in /usr/bin
-printf "Creating symlink in '/usr/bin'.\n\n"
+# Create start script in /usr/bin
+printf "Creating start script in '/usr/bin'.\n\n"
 sleep 3
 
 printf '#!/usr/bin/env bash\ncd /usr/share/alsa-hdspeconf\n./hdspeconf' | sudo tee -a /usr/bin/hdspeconf
