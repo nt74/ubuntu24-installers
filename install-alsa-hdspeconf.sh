@@ -87,7 +87,7 @@ sudo apt update
 sudo apt install -y build-essential manpages-dev
 
 # Install additional packages for a development env
-sudo apt install -y curl unzip git vim
+sudo apt install -y curl git vim
 
 # Prerequisites
 
