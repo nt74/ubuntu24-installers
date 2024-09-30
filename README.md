@@ -1,5 +1,14 @@
 # ubuntu24-installers
-Ubuntu 24.04 installer scripts to simplify things for the user. 
+Ubuntu 24.04 installer scripts to simplify things for the user.
+### Modify Ubuntu pro option
+#### Disable:
+```
+sudo pro config set apt_news=false
+```
+#### Enable (default):
+```
+sudo pro config set apt_news=true
+```
 
 ## Instructions
 ```
